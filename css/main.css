@@ -545,6 +545,11 @@ input {
   opacity: 0;
   cursor: pointer;
 }
+.block3_1:hover ~ .block3_1234567tape .img_tape {
+  opacity: 1;
+  cursor: pointer;
+  margin: -715px 0px 0 -45px;
+}
 .textblock3_1a {
   color: #474747;
   font-size: 24px;
@@ -710,6 +715,11 @@ input {
   opacity: 0;
   cursor: pointer;
 }
+.block3_2:hover ~ .block3_1234567tape .img_tape {
+  opacity: 1;
+  cursor: pointer;
+  margin: -535px 0px 0 -45px;
+}
 .textblock3_2a {
   color: #474747;
   font-size: 24px;
@@ -803,6 +813,11 @@ input {
   opacity: 0;
   cursor: pointer;
 }
+.block3_3:hover ~ .block3_1234567tape .img_tape {
+  opacity: 1;
+  cursor: pointer;
+  margin: -390px 0px 0 -45px;
+}
 .block3_4w {
   width: 621px;
   height: 76px;
@@ -824,6 +839,11 @@ input {
 .block3_4:hover {
   opacity: 0;
   cursor: pointer;
+}
+.block3_4:hover ~ .block3_1234567tape .img_tape {
+  opacity: 1;
+  cursor: pointer;
+  margin: -295px 0px 0 -45px;
 }
 .block3_5w {
   width: 621px;
@@ -847,6 +867,11 @@ input {
   opacity: 0;
   cursor: pointer;
 }
+.block3_5:hover ~ .block3_1234567tape .img_tape {
+  opacity: 1;
+  cursor: pointer;
+  margin: -215px 0px 0 -45px;
+}
 .block3_6w {
   width: 621px;
   height: 76px;
@@ -869,6 +894,11 @@ input {
   opacity: 0;
   cursor: pointer;
 }
+.block3_6:hover ~ .block3_1234567tape .img_tape {
+  opacity: 1;
+  cursor: pointer;
+  margin: -135px 0px 0 -45px;
+}
 .block3_7w {
   width: 621px;
   height: 76px;
@@ -887,9 +917,20 @@ input {
   position: absolute;
   margin-top: -76px;
 }
+.img_tape {
+  position: absolute;
+  
+  background: #EBEBEB;
+  opacity: 0;
+}
 .block3_7:hover {
   opacity: 0;
   cursor: pointer;
+}
+.block3_7:hover ~ .block3_1234567tape .img_tape {
+  opacity: 1;
+  cursor: pointer;
+  margin: -55px 0px 0 -45px;
 }
 /* блоки и блоки сменна цвета 34567 начало*/
 /* красный блок 34567 стили начало */
@@ -1169,11 +1210,12 @@ input {
   padding-right: 40px;
   line-height: 1.5em;
 }
-.img4 {
-  position: absolute;
-  margin: 255px 0px 0 -677px;
-  background: #EBEBEB;
-}
+
+
+
+
+
+
 .block5 {
   width: 299px;
   height: 2558px;
